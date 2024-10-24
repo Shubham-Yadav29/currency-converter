@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel ="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="first-outer">
+        <div class="top-center"><p class="shubham">Shubham</p><p class="hehe">Currency-Converter</p></div>
+    </div>  
+<div class="sec-outer">
+            <div class="container">
+        <h2>Currency Converter</h2>
+            <div class="amount-input">
+                <input type="number" id="input-data" placeholder="Enter Amount" >
+            </div>
+
+    <div class="outerdiv">
+        <div class="fromDiv">
+                <p id="from">From</p>
+            <img src="https://flagsapi.com/US/flat/64.png">
+
+            <select name = "from" class="same" id="from-select">
+            </select>
+
+        </div>
+        <div class="icon"><i class="fa-solid fa-arrow-right-arrow-left"></i></div>
+        
+
+        <div class="toDiv">
+            <p id ="to">To</p>
+            <img src="https://flagsapi.com/IN/flat/64.png" height="40px">
+
+            <select name = "to" class="same" id="to-select">
+            </select>
+
+        </div>
+    </div>
+
+        <div id ="difference-teller"><p class="child">1USD = 80INR</p></div>
+        <div class="button-div"><button class="getExchange">Get Exchange Rate</button></div>
+        </div>
+</div>
+    <script src="logic.js" type="module"></script>
+</body>
+</html>
